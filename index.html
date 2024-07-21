@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li class="brand"> <img src="pics/spotify.jfif" href="C:\Users\Admin\Desktop\WebD\pics\spotify.jfif">Spotify</li>
+        <li>Home</li> 
+        </ul>   
+    </nav> 
+    <div class="container">
+        
+        <div class="songlist">
+            <h1>Best Songs</h1>
+            <div class="songitemcontainer">
+                <div class="songitem">
+                    <img src="covers/1.jfif" alt="1">
+                    <span>Adiga-Adiga</span>
+                    <span class="songlistplay"><span class="timestamp">03:28 <i id="0" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/2.jfif" alt="1">
+                    <span>Marhaba</span>
+                    <span class="songlistplay"><span class="timestamp">04:40 <i id="1" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jfif" alt="1">
+                    <span>Andangalena</span>
+                    <span class="songlistplay"><span class="timestamp">04:20 <i id="2" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jfif" alt="1">
+                    <span>Jersey</span>
+                    <span class="songlistplay"><span class="timestamp">04:27 <i id="3" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jfif" alt="1">
+                    <span>Nuvvena</span>
+                    <span class="songlistplay"><span class="timestamp">04:53 <i id="4" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jfif" alt="1">
+                    <span>Satyam Emito</span>
+                    <span class="songlistplay"><span class="timestamp">04:49 <i id="5" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/7.jfif" alt="1">
+                    <span>Neeve</span>
+                    <span class="songlistplay"><span class="timestamp">04:41 <i id="6" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/8.jfif" alt="1">
+                    <span>Thanemandho</span>
+                    <span class="songlistplay"><span class="timestamp">04:14 <i id="7" class="fa songitemplay fa-play-circle"></i></span> </span>
+                </div>
+            </div>
+        </div> 
+        <div class="currentsong"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa fa 3x-solid fa-step-backward" id="previous"></i>
+            <i class="fa fa 3x-solid fa-play-circle" id="masterplay"></i>
+            <i class="fa fa 3x-solid fa-step-forward" id="next"></i>
+        </div>
+        <div class="songinfo"><img src="pics/playing.gif" width="42px" id="gif" alt=""> <span id="mastersongname">Adiga Adiga</span></div>
+    </div>
+    <script src="https://kit.fontawesome.com/ae6828a087.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
